@@ -830,6 +830,13 @@
   dependencies:
     sucrase "^3.0.0"
 
+"@trustack/rollup-plugin-node-polyfills@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@trustack/rollup-plugin-node-polyfills/-/rollup-plugin-node-polyfills-0.2.2.tgz#6df1e7209647371ff18cff1d63bcbc92ff171b2d"
+  integrity sha512-SvPMnMsG139IwzBBLzWI/1EsIfu6rIhrtigBXyOiXxwnaQVKABGGON66QRhgQYpekD416nhhek0W+TbQibbwXw==
+  dependencies:
+    rollup-plugin-inject "^3.0.0"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
@@ -4017,13 +4024,6 @@ rollup-plugin-inject@^3.0.0:
     estree-walker "^0.6.1"
     magic-string "^0.25.3"
     rollup-pluginutils "^2.8.1"
-
-rollup-plugin-node-polyfills@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-polyfills/-/rollup-plugin-node-polyfills-0.2.1.tgz#53092a2744837164d5b8a28812ba5f3ff61109fd"
-  integrity sha512-4kCrKPTJ6sK4/gLL/U5QzVT8cxJcofO0OU74tnB19F40cmuAKSzH5/siithxlofFEjwvw1YAhPmbvGNA6jEroA==
-  dependencies:
-    rollup-plugin-inject "^3.0.0"
 
 rollup-pluginutils@^2.8.1:
   version "2.8.2"

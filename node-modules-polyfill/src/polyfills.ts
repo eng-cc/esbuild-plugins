@@ -3,7 +3,7 @@
 import { NodePolyfillsOptions } from '.'
 
 const EMPTY_PATH = require.resolve(
-    'rollup-plugin-node-polyfills/polyfills/empty.js',
+    '@trustack/rollup-plugin-node-polyfills/polyfills/empty.js',
 )
 
 export function builtinsPolyfills() {
@@ -11,114 +11,114 @@ export function builtinsPolyfills() {
 
     libs.set(
         'process',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/process-es6'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/process-es6'),
     )
     libs.set(
         'buffer',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/buffer-es6'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/buffer-es6'),
     )
     libs.set(
         'util',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/util'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/util'),
     )
     libs.set('sys', libs.get('util'))
     libs.set(
         'events',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/events'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/events'),
     )
     libs.set(
         'stream',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/stream'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/stream'),
     )
     libs.set(
         'path',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/path'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/path'),
     )
     libs.set(
         'querystring',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/qs'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/qs'),
     )
     libs.set(
         'punycode',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/punycode'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/punycode'),
     )
     libs.set(
         'url',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/url'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/url'),
     )
     libs.set(
         'string_decoder',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/string-decoder',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/string-decoder',
         ),
     )
     libs.set(
         'http',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/http'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/http'),
     )
     libs.set(
         'https',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/http'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/http'),
     )
-    libs.set('os', require.resolve('rollup-plugin-node-polyfills/polyfills/os'))
+    libs.set('os', require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/os'))
     libs.set(
         'assert',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/assert'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/assert'),
     )
     libs.set(
         'constants',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/constants'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/constants'),
     )
     libs.set(
         '_stream_duplex',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/readable-stream/duplex',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/readable-stream/duplex',
         ),
     )
     libs.set(
         '_stream_passthrough',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/readable-stream/passthrough',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/readable-stream/passthrough',
         ),
     )
     libs.set(
         '_stream_readable',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/readable-stream/readable',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/readable-stream/readable',
         ),
     )
     libs.set(
         '_stream_writable',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/readable-stream/writable',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/readable-stream/writable',
         ),
     )
     libs.set(
         '_stream_transform',
         require.resolve(
-            'rollup-plugin-node-polyfills/polyfills/readable-stream/transform',
+            '@trustack/rollup-plugin-node-polyfills/polyfills/readable-stream/transform',
         ),
     )
     libs.set(
         'timers',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/timers'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/timers'),
     )
     libs.set(
         'console',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/console'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/console'),
     )
-    libs.set('vm', require.resolve('rollup-plugin-node-polyfills/polyfills/vm'))
+    libs.set('vm', require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/vm'))
     libs.set(
         'zlib',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/zlib'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/zlib'),
     )
     libs.set(
         'tty',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/tty'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/tty'),
     )
     libs.set(
         'domain',
-        require.resolve('rollup-plugin-node-polyfills/polyfills/domain'),
+        require.resolve('@trustack/rollup-plugin-node-polyfills/polyfills/domain'),
     )
 
     // not shimmed

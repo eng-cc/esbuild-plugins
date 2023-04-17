@@ -1,14 +1,14 @@
 {
-    "name": "@esbuild-plugins/node-modules-polyfill",
-    "version": "0.2.2",
+    "name": "@trustack/node-modules-polyfill",
+    "version": "0.2.5",
     "description": "",
     "main": "dist/index.js",
     "module": "esm/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/remorses/esbuild-plugins.git",
     "scripts": {
         "build": "tsc && tsc -m es6 --outDir esm",
-        "watch": "tsc -w"
+        "watch": "tsc -w",
+        "publish": "npm publish --access public"
     },
     "files": [
         "dist",
@@ -16,7 +16,7 @@
         "esm"
     ],
     "keywords": [],
-    "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
+    "author": "scc",
     "license": "ISC",
     "devDependencies": {
         "safe-buffer": "^5.2.1",
@@ -25,7 +25,7 @@
     },
     "dependencies": {
         "escape-string-regexp": "^4.0.0",
-        "rollup-plugin-node-polyfills": "^0.2.1"
+        "@trustack/rollup-plugin-node-polyfills": "^0.2.2"
     },
     "peerDependencies": {
         "esbuild": "*"
